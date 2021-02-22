@@ -13,5 +13,6 @@ class EmailAddressParser
   end
   
   def parse
+    @parser.split(", ")
   end
 end
